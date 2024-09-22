@@ -20,11 +20,10 @@ classifier = DecisionTreeClassifier(max_depth=3, random_state=1)
 # Fit the model
 classifier.fit(X, y)
 
-
 # Plot the results
 plt.figure(figsize=(12, 6))
-plot_tree(classifier, feature_names=X.columns, class_names=['Normal', 'Diabetes'], filled=True)
-plt.title('Decision Tree (Max Depth = 3)')
+plot_tree(classifier, feature_names=X.columns, class_names=['Normal', 'Diabetes'], impurity=False)
+plt.title('Diabetes Decision Tree')
 plt.show()
 
 
