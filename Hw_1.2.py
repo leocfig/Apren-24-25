@@ -35,7 +35,7 @@ for min_samples in min_samples_splits:
     for _ in range(10):
 
         # Initialize a Decision Tree Classifier with the current number min_samples
-        classifier = DecisionTreeClassifier(min_samples_split=min_samples, random_state=1)
+        classifier = DecisionTreeClassifier(min_samples_split=min_samples)
 
         # Fit the model
         classifier.fit(X_train, y_train)
