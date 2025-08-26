@@ -27,3 +27,7 @@ Goal: Clustering and PCA;
 Grade: 19.30/20.00
 
 Motivation of deduction -  2.80/3.00 in Part I Question 1 (M Step); 1.00-1.50 in Part II Question 2c (Comments)
+
+**Award Project:**
+
+Goal: Radial Basis Function networks;
